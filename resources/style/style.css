@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+}
+
+
+a {
+    color: black;
+}
+
+header a:hover {
+    color: mediumaquamarine;
+}
+
+footer a:hover {
+    color: white;
+}
+
+h2 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    color: mediumaquamarine;
+    padding-left: 40px;
+}
+
+.logo span {
+    margin-left: 10px;
+}
+
+header nav span {
+    padding-right: 40px;
+}
+
+.content {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 3;
+    flex-basis: 630px;
+    max-width: 630px;
+}
+
+.stories-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    min-height: 530px;
+    margin-top: 25px;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 2;
+    flex-basis: 300px;
+    max-width: 300px;
+}
+
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 240px;
+    max-width: 240px;
+}
+
+.news-bites {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.other-stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+
+.other-stories span {
+    margin: 0;
+    border-bottom: 1px solid white;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    padding: 10px;
+}
+
+.other-stories span:hover {
+    margin: 0;
+    border-bottom: 1px solid white;
+    background-color: MediumAquamarine;
+    font-family: Verdana;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+
+/* content formatting */
+
+.concert-content span {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.orca span {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    width: 300px;
+
+}
+
+.burger span {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    width: 300px;
+
+}
+
+.burger span {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    width: 300px;
+
+}
+
+.cat-content span {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.fbi span {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+/* photo headers */
+
+.concert-headline {
+    background-image: url(../images/img-story-main.png);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.earth-spin {
+    background-image: url(../images/img-story-2.png);
+    height: 300px;
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.cameras {
+    background-image: url(../images/img-story-3.png);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.cats {
+    background-image: url(../images/img-story-1.png);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+/* footer formatting */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    height: 300px;
+}
+
+.title {
+    display: inline-block;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+footer nav span {
+    padding-right: 10px;
+}
+
+.copyright {
+    padding-top: 20px;
+}
